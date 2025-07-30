@@ -1,0 +1,56 @@
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     padding: 1rem 0rem;
+     align-items: center;  
+}
+.logo{
+    width: 14rem;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    color: #49557e;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-right .sign-in-button{
+    width: 70%;
+    height: auto;
+    font-size: 2rem;
+    border-radius: 60px;
+    padding: 0.7rem 2rem;
+    background: transparent;
+    border: 1px solid rgb(255, 99, 71 , .8);
+    color: #49557e;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar-right .sign-in-button:hover{
+    transition: 0.5s;
+    background-color: rgb(250, 245, 245);
+    transform: scale(1.1);
+}
+.navbar-menu .active{
+    border-bottom: 4px solid #49557e;
+    padding-bottom: .2rem;
+}
+.basket-and-dot{
+    position:relative;
+}
+.basket-and-dot .dot{
+    position: absolute;
+    color: tomato;
+    min-height: 10px;
+    min-width: 10px;
+    
+    top:-1.8rem;
+    right:-1rem;
+    font-size: 2.5rem;
+}
