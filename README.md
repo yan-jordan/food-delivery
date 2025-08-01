@@ -4,12 +4,6 @@ A responsive and modern food delivery website built with **React.js**, styled us
 
 ---
 
-## 🌐 Live Demo
-
-> 🔗 Add your deployed site link here (e.g. Netlify, Vercel)
-
----
-
 ## 📸 Screenshots
 
 ![Screenshot 1404-05-11 at 00 47 56](https://github.com/user-attachments/assets/fcb6b743-60d1-41e7-8ef9-c1a5f26d4b31)
