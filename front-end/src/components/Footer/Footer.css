@@ -47,3 +47,22 @@ li{
 .footer-content-right h2{
     margin-bottom:.5vw;
 }
+
+
+@media(max-width: 750px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+
+    .footer-content-left img{
+        margin-bottom: 3vw;
+    }
+    .footer-content-left p{
+        margin-bottom: 3vw;
+    }
+}

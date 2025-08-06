@@ -11,9 +11,10 @@
     list-style: none;
     display: flex;
     gap: 3rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #49557e;
     cursor: pointer;
+    align-items: center;
 }
 .navbar-right{
     display: flex;
@@ -21,9 +22,9 @@
     align-items: center;
 }
 .navbar-right .sign-in-button{
-    width: 70%;
+    width: 8vw;
     height: auto;
-    font-size: 2rem;
+    font-size: 1vw;
     border-radius: 60px;
     padding: 0.7rem 2rem;
     background: transparent;
@@ -33,13 +34,15 @@
     transition: 0.5s;
 }
 .navbar-right .sign-in-button:hover{
-    transition: 0.5s;
-    background-color: rgb(250, 245, 245);
+    transition: .6s;
+    background-color: #49557e;
+    color: white;
+    border: none;
     transform: scale(1.1);
 }
 .navbar-menu .active{
-    border-bottom: 4px solid #49557e;
-    padding-bottom: .2rem;
+    border-bottom: 3px solid #49557e;
+    padding-bottom: 1px;
 }
 .basket-and-dot{
     position:relative;
@@ -49,8 +52,96 @@
     color: tomato;
     min-height: 10px;
     min-width: 10px;
-    
     top:-1.8rem;
     right:-1rem;
     font-size: 2.5rem;
+}
+
+@media(max-width: 1440px){
+    .navbar-menu{
+        font-size: 1.2rem;
+    }
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar-right{
+        gap:25px;
+    }
+    .navbar-right img{
+        width:20px;
+    }
+    .navbar-right .sign-in-button{
+        width:110px;
+        
+    }
+
+}
+
+@media(max-width: 1050px) {
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 18px;
+    }
+    .navbar-right .sign-in-button{
+        padding: 8px 25px;
+    }
+}
+@media(max-width:900px){
+    .navbar .logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+        align-items: center;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 16px;
+    }
+    .navbar-right .sign-in-button{
+        padding: 8px 25px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 750px){
+   .navbar-menu{
+    display:none;
+   }
+    .sign-in-button{
+    width:50px;
+    }
+}
+@media(max-width:420px){
+    .navbar .logo{
+        width:80px;
+    }
+    .navbar-menu{
+        display:none;
+    }
+    .navbar-right{
+        gap: 10px;
+    }
+    .navbar-right img{
+        width: 12px;
+    }
+    .navbar-right .sign-in-button{
+        width: 50px;
+        font-size: 8px;
+        padding: 4px 0px 4px 0px;
+    }
+    .basket-and-dot .dot{
+        display: none;
+    }
 }

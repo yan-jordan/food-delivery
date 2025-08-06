@@ -1,0 +1,13 @@
+.app-download{
+    margin: 5vw auto;
+     font-size: max(3vw,20px);
+     text-align: center;
+     font-weight: 500;    
+}
+.app-download-platforms{
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin: 1vw auto;
+}

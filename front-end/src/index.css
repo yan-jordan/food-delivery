@@ -3,8 +3,9 @@
     margin: 0;
     padding : 0;
     box-sizing: border-box;
-    font-family:   "DynaPuff", system-ui;
-    font-weight: 100;
+    /*font-family:   "DynaPuff", system-ui;*/
+    font-weight: 700;
+    scroll-behavior: smooth;
 }
 body{
     min-height: 100vh;
@@ -16,6 +17,7 @@ a{
 .app{
     width:80%;
     margin:auto;
+    overflow-x: hidden;
 }
 @keyframes fadeIn {
     0%{

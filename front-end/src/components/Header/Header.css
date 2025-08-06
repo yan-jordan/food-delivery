@@ -33,11 +33,50 @@
     color:grey;
     box-shadow: 5px 5px rgb(37, 37, 37 , .1);
     cursor: pointer;
-    transition: .4s;
+    transition: .2s;
 }
 .header-content button:hover{
     background: grey;
     color:white;
     transform: scale(1.05);
     transition: .4s;
+}
+
+@media(max-width: 1050px){
+    .header{
+        height: 40vw;
+    }
+    .header-content{
+        max-width: 60%;
+    }
+}
+
+@media(max-width: 750px){
+    .header-content{
+        max-width: 55%;
+    }
+    .header-content p{
+        display:none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+    .header{
+        margin-top: 2vw;
+    }
+}
+
+@media(max-width: 450px){
+    .header-content{
+        max-width: 90%;
+    }
+    .header-content h1{
+        font-size: 5vw;
+    }
+    .header{
+        margin: 1vw 0 3vw 0;
+    }
+
+    
+    
 }
