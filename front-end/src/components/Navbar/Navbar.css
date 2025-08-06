@@ -31,14 +31,14 @@
     border: 1px solid rgb(255, 99, 71 , .8);
     color: #49557e;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .navbar-right .sign-in-button:hover{
     transition: .6s;
-    background-color: #49557e;
-    color: white;
+    color: #49557e;
     border: none;
-    transform: scale(1.1);
+    transform: scale(1.2);
+    transition: 0.2s;
 }
 .navbar-menu .active{
     border-bottom: 3px solid #49557e;
@@ -71,10 +71,8 @@
         width:20px;
     }
     .navbar-right .sign-in-button{
-        width:110px;
-        
+        width:110px;   
     }
-
 }
 
 @media(max-width: 1050px) {
