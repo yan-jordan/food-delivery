@@ -1,0 +1,26 @@
+.cart{
+    margin-top: 100px;
+    min-height: 40vh;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr .5fr;
+    align-items: center;
+    color: rgb(171, 169, 169);
+    font-size: max(1vw , 12px);
+}
+.cart-items-item{
+    margin: 15px 0px;
+    color: black;
+}
+.cart-items-item img{
+    width: 70px;
+}
+.cart hr{
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cart-items-item .cross{
+    cursor: pointer;
+} 

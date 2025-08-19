@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     font-size: max(1vw , 14px);
-    align-items: center;    
+    align-items: center; 
 }
 .footer, .footer * {
     font-family: 'Courier New', monospace !important;
