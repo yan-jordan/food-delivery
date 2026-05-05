@@ -4,4 +4,4 @@
 ![Uploading Screenshot 1405-02-12 at 14.20.33.png…]()
 
 # food-delivery
-this is a food-delivery website which written by react.js
+this is a food-delivery website which written by react.js library
